@@ -1,19 +1,11 @@
-import { useLayoutEffect } from 'react'
-import { View, Text, StyleSheet, Button } from 'react-native'
-import { useRoute, useNavigation, StackActions } from '@react-navigation/native'
+import { StyleSheet, Text, View } from 'react-native'
 
 export default function Contato() {
-
- const navigate = useNavigation();
-
-    function handleHome(){
-        navigate.dispatch(StackActions.popToTop)
-    }
 
     return (
         <View style={styles.container}>
             <Text>Contato</Text>
-            <Button title='Voltar Home' onPress={handleHome} /> 
+
         </View>
     )
 }

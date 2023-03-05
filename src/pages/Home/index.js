@@ -7,7 +7,7 @@ export default function Home() {
     const navigation = useNavigation();
 
     function navagaSobre(){
-        navigation.navigate('Sobre', {nome: 'Bruno Staine', email: 'bruno@email.com'})
+        navigation.navigate('Sobre')
     }
 
     return (

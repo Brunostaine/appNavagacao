@@ -6,14 +6,14 @@ export default function Home() {
 
     const navigation = useNavigation();
 
-    function navagaSobre(){
-        navigation.navigate('Sobre')
+    function navagaDetalhes(){
+        navigation.navigate('Detalhes')
     }
 
     return (
         <View style={styles.container}>
             <Text>HOME</Text>
-            <Button title='Ir para Sobre' onPress={ navagaSobre } />
+            <Button title='Ir para Detalhes' onPress={ navagaDetalhes } />
         </View>
     )
 }
